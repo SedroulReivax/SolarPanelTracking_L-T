@@ -11,37 +11,37 @@ Solar panels work best when they face the sun directly, but fixed panels cannot 
 Architecture Of Arduino Uno
 The Arduino UNO is built around the ATmega328P microcontroller, which is an 8-bit AVR RISC-based microcontroller. It follows a simple architecture with the following main blocks:
 
-	Microcontroller Core (ATmega328P):
+Microcontroller Core (ATmega328P):
 •	8-bit processor running at 16 MHz clock speed.
 •	32 KB Flash memory for program storage, 2 KB SRAM for data, and 1 KB EEPROM for permanent storage.
 
 
-	Power Supply Unit:
+Power Supply Unit:
 •	Can be powered through USB (5V) or an external adapter (7–12V).
 •	Onboard voltage regulator provides stable 5V and 3.3V outputs.
-	Digital I/O Ports:
+Digital I/O Ports:
 •	14 digital pins (0–13), out of which 6 can provide PWM output.
 •	Used to connect sensors, actuators, and modules.
 
-	Analog Input Ports: 
+Analog Input Ports: 
 •	6 analog pins (A0–A5) with a 10-bit ADC (Analog to Digital Converter).
 •	Used to read sensor values like temperature, light, etc.
 
-	Timers and Counters:
+Timers and Counters:
 •	Three timers (two 8-bit and one 16-bit) for PWM, delays, and event counting.
 
-	Communication Interfaces:
+Communication Interfaces:
 •	UART (Serial Communication)
 •	SPI (Serial Peripheral Interface)
 •	I2C (Inter-Integrated Circuit)
 
-	Oscillator:
+Oscillator:
 •	16 MHz quartz crystal provides the system clock.
 
-	USB Interface:
+USB Interface:
 •	A USB-to-Serial converter (ATmega16U2) allows programming and serial communication with a PC.
 
-	Reset Circuit:
+Reset Circuit:
 •	A reset button restarts the microcontroller program.
 
 
