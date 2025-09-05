@@ -33,8 +33,8 @@ void setup() {
   myServo.write(servoPos);
   delay(1000);
 
-  Serial.println("Digital Solar Tracker Ready (with Dead-Zone)");
-  Serial.println("Torch = Panel moves smoothly toward light");
+  Serial.println("Digital Solar Tracker Ready");
+
 }
 
 void loop() {
